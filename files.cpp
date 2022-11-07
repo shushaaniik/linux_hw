@@ -29,6 +29,7 @@ int main(int argc, char** argv)
     std::string i_str = std::to_string(i);
     std::string i_path = path;
     i_path += i_str;
+    i_path += ".txt";
     int i_path_len = i_path.length();
     std::string i_text = text;
     i_text += i_str;
