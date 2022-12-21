@@ -13,7 +13,7 @@ void* magic()
 int main()
 {
   pthread_t th;
-  if(pthread_create(&th, NULL, &magic, NULL) != 0)
+  if(pthread_create(&th, NULL, magic, NULL) != 0)
   {
     perror("Failed to create a thread.");
     return 1;
