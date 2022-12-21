@@ -10,7 +10,6 @@ void* magic()
   num = rand();
 }
 
-
 int main()
 {
   pthread_t th;

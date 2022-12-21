@@ -21,3 +21,16 @@ g++ files.cpp -o files
 gcc show_dir.c -o show_dir
 ./show_dir <path>
 ```
+
+# HW 3
+
+## Magic number
+
+**Consists of 2 threads, one is the main thread, second is a thread that executes the magic number (a random number) generator function. The main thread needs to wait for the magic number, and after that print it on the terminal**
+
+### Usage
+
+```
+gcc magic_number.c -o magic_number
+./magic_number
+```
