@@ -1,4 +1,4 @@
-# HW 2
+# HW 1
 
 ## New files
 
@@ -7,6 +7,7 @@
 ### Usage
 
 ```
+cd HW1
 g++ files.cpp -o files
 ./files <N> <Text>
 ```
@@ -18,11 +19,12 @@ g++ files.cpp -o files
 ### Usage
 
 ```
+cd HW1
 gcc show_dir.c -o show_dir
 ./show_dir <path>
 ```
 
-# HW 3
+# HW 2
 
 ## Magic number
 
@@ -31,6 +33,7 @@ gcc show_dir.c -o show_dir
 ### Usage
 
 ```
+cd HW2
 gcc magic_number.c -o magic_number
 ./magic_number
 ```
